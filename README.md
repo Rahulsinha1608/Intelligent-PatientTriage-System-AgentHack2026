@@ -162,10 +162,26 @@ UiPath Studio invokes the Agentic Process through Maestro to automate backend ex
 Coded Agent Structure.
 ---
 
-# 📂 Project Structure
+## 📁 Project Structure
 
 ```text
-Intelligent-PatientTriage-System-AgentHack2026/ │ ├── 📄 Intelligent Patient Triage System.uipx ├── 📄 SolutionStorage.json │ ├── 📁 MainBackend/ │ ├── MAINBPMN.bpmn │ ├── bindings_v2.json │ ├── entry-points.json │ └── project.uiproj │ ├── 📁 RPA Workflow/ │ ├── Main.xaml │ ├── entry-points.json │ ├── project.json │ └── project.uiproj │ ├── 📁 CodedTriageAgent/ │ ├── main.py │ ├── utils.py │ ├── agent.json │ ├── bindings.json │ ├── langgraph.json │ ├── pyproject.toml │ ├── uipath.json │ ├── entry-points.json │ └── project.uiproj │ ├── 📁 Triage/ │ ├── agent.json │ ├── flow-layout.json │ ├── entry-points.json │ └── project.uiproj │ ├── 📁 Doctor Assigning/ │ ├── agent.json │ ├── flow-layout.json │ ├── entry-points.json │ └── project.uiproj │ ├── 📁 DrApprovalApp/ │ ├── Main.xaml │ ├── PatientReviewFormPage1_Confirm_click.xaml │ ├── entry-points.json │ ├── project.json │ └── project.uiproj │ ├── 📁 DrEmailA/ │ ├── Main.xaml │ ├── entry-points.json │ └── project.uiproj │ ├── 📁 DrEmailR/ │ ├── Main.xaml │ ├── entry-points.json │ └── project.uiproj │ ├── 📁 PatientemailA/ │ ├── Main.xaml │ ├── entry-points.json │ └── project.uiproj │ ├── 📁 PateintEmailR/ │ ├── Main.xaml │ ├── entry-points.json │ └── project.uiproj │ ├── 📁 docs/ │ └── 📁 images/ │ ├── patient-intake.png │ ├── patient-review.png │ ├── maestro-workflow.png │ └── studio-agent-process.png │ ├── 📄 README.md └── 📄 LICENSE
+Intelligent-PatientTriage-System-AgentHack2026/
+├── MainBackend/           # Maestro BPMN orchestration
+├── RPA Workflow/          # Main UiPath Studio workflow
+├── CodedTriageAgent/      # Python-based coded agent
+├── Triage/                # AI Triage Agent
+├── Doctor Assigning/      # Doctor classification agent
+├── DrApprovalApp/         # Doctor review application
+├── DrEmailA/              # Doctor acceptance email
+├── DrEmailR/              # Doctor rejection email
+├── PatientemailA/         # Patient acceptance email
+├── PateintEmailR/         # Patient rejection email
+├── docs/
+│   └── images/            # Screenshots for README
+├── Intelligent Patient Triage System.uipx
+├── SolutionStorage.json
+├── README.md
+└── LICENSE
 ```
 
 ---
