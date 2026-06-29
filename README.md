@@ -8,7 +8,7 @@ Built for **UiPath AgentHack 2026**
 
 ![UiPath](https://img.shields.io/badge/UiPath-Agentic%20Automation-orange)
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
-![License](https://img.shields.io/badge/License-MIT-blue)
+![License](https://img.shields.io/badge/License-Apache%202.0-blue)
 
 </div>
 
@@ -126,7 +126,7 @@ Email Notification
 
 ## Patient Intake Application
 
-![Patient Intake](docs/images/patient-intake.png)
+![Patient Intake](docs/images/patient-intake.jpeg)
 
 Patients submit their symptoms and medical details through an intuitive UiPath Apps interface.
 
@@ -134,7 +134,7 @@ Patients submit their symptoms and medical details through an intuitive UiPath A
 
 ## Patient Review Dashboard
 
-![Patient Review](docs/images/patient-review.png)
+![Patient Review](docs/images/patient-review.jpeg)
 
 Doctors can review patient details, severity level, assigned diagnosis, and accept or reject the case.
 
@@ -142,7 +142,7 @@ Doctors can review patient details, severity level, assigned diagnosis, and acce
 
 ## UiPath Maestro Workflow
 
-![Workflow](docs/images/maestro-workflow.png)
+![Workflow](docs/images/maestro-workflow.jpeg)
 
 Agentic workflow coordinating patient triage, doctor assignment, and notification processes.
 
@@ -150,7 +150,7 @@ Agentic workflow coordinating patient triage, doctor assignment, and notificatio
 
 ## Studio Automation
 
-![Studio](docs/images/studio-agent-process.png)
+![Studio](docs/images/studio-agent-process.jpeg)
 
 UiPath Studio invokes the Agentic Process through Maestro to automate backend execution.
 
