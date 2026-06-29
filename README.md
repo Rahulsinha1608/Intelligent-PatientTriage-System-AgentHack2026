@@ -223,7 +223,7 @@ Members:
 2. **Sneha Ram**
 3. **Kavya Mahto**
 4. **Rahul**
-Built as part of **UiPath AgentHack 2026**.
+# Built as part of **UiPath AgentHack 2026**.
 
 ---
 
