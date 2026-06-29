@@ -155,7 +155,7 @@ Agentic workflow coordinating patient triage, doctor assignment, and notificatio
 UiPath Studio invokes the Agentic Process through Maestro to automate backend execution.
 
 ---
-## Studio Automation
+## Coded Agent
 
 ![Studio](docs/images/coded-agent.jpeg)
 
