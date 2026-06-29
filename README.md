@@ -212,7 +212,11 @@ Intelligent-PatientTriage-System-AgentHack2026
 # 👥 Team
 
 **OrchestrATE**
-
+Members:
+1. **Kohinoor Soni**
+2. **Sneha Ram**
+3. **Kavya Mahto**
+4. **Rahul**
 Built as part of **UiPath AgentHack 2026**.
 
 ---
