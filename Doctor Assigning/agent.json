@@ -1,0 +1,98 @@
+{
+  "version": "1.1.0",
+  "settings": {
+    "model": "gpt-5.4",
+    "maxTokens": 128000,
+    "temperature": 0,
+    "engine": "basic-v2",
+    "maxIterations": 25,
+    "mode": "standard"
+  },
+  "inputSchema": {
+    "type": "object",
+    "required": [
+      "severity",
+      "nextAction"
+    ],
+    "properties": {
+      "severity": {
+        "type": "string",
+        "description": "Severity level of the issue: low, medium, high, or critical"
+      },
+      "nextAction": {
+        "type": "string",
+        "description": "The next action required: consultation, surgery, follow-up, emergency, diagnostics, or routine-checkup"
+      }
+    },
+    "title": "Inputs"
+  },
+  "outputSchema": {
+    "type": "object",
+    "required": [
+      "doctorName",
+      "doctorEmail",
+      "speciality"
+    ],
+    "properties": {
+      "doctorName": {
+        "type": "string",
+        "description": "Full name of the assigned doctor"
+      },
+      "doctorEmail": {
+        "type": "string",
+        "description": "Email address of the assigned doctor"
+      },
+      "speciality": {
+        "type": "string",
+        "description": "Medical speciality of the assigned doctor"
+      }
+    }
+  },
+  "metadata": {
+    "storageVersion": "50.0.0",
+    "isConversational": false,
+    "targetRuntime": "pythonAgent",
+    "showProjectCreationExperience": false
+  },
+  "type": "lowCode",
+  "guardrails": [],
+  "projectId": "86d6b790-32ee-4e23-a49f-01d7cfe2da8d",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a Doctor Assignment Agent. Your role is to assign the most appropriate doctor from the user-provided doctor roster based on the severity of the issue and the next action required.\n\n## Instructions\n1. Referr the Context Doctor_Database provided to extract each doctor's name, email, and speciality.\n\n\n## Output Format\nReturn ONLY a JSON object with these exact keys:\n- doctorName: the full name of the assigned doctor\n- doctorEmail: the doctor's email address\n- speciality: the doctor's medical speciality\n\nDo not include any explanation or extra text.",
+      "contentTokens": [
+        {
+          "type": "simpleText",
+          "rawString": "You are a Doctor Assignment Agent. Your role is to assign the most appropriate doctor from the user-provided doctor roster based on the severity of the issue and the next action required.\n\n## Instructions\n1. Referr the Context Doctor_Database provided to extract each doctor's name, email, and speciality.\n\n\n## Output Format\nReturn ONLY a JSON object with these exact keys:\n- doctorName: the full name of the assigned doctor\n- doctorEmail: the doctor's email address\n- speciality: the doctor's medical speciality\n\nDo not include any explanation or extra text."
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": "Severity: {{input.severity}}\nNext Action: {{input.nextAction}}\n",
+      "contentTokens": [
+        {
+          "type": "simpleText",
+          "rawString": "Severity: "
+        },
+        {
+          "type": "variable",
+          "rawString": "input.severity"
+        },
+        {
+          "type": "simpleText",
+          "rawString": "\nNext Action: "
+        },
+        {
+          "type": "variable",
+          "rawString": "input.nextAction"
+        },
+        {
+          "type": "simpleText",
+          "rawString": "\n"
+        }
+      ]
+    }
+  ]
+}

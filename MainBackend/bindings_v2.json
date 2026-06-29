@@ -1,0 +1,133 @@
+{
+  "version": "2.0",
+  "resources": [
+    {
+      "resource": "process",
+      "key": "Doctor Assigning",
+      "id": "processDoctor Assigning",
+      "value": {
+        "name": {
+          "defaultValue": "Doctor Assigning",
+          "isExpression": false,
+          "displayName": "Process name"
+        }
+      },
+      "metadata": {
+        "ActivityName": "Doctor Assigning",
+        "BindingsVersion": "2.2",
+        "DisplayLabel": "name",
+        "SolutionsSupport": "true",
+        "subType": "Agent"
+      }
+    },
+    {
+      "resource": "process",
+      "key": "DrEmailA",
+      "id": "processDrEmailA",
+      "value": {
+        "name": {
+          "defaultValue": "DrEmailA",
+          "isExpression": false,
+          "displayName": "Process name"
+        }
+      },
+      "metadata": {
+        "ActivityName": "DrEmailA",
+        "BindingsVersion": "2.2",
+        "DisplayLabel": "name",
+        "SolutionsSupport": "true"
+      }
+    },
+    {
+      "resource": "process",
+      "key": "PatientemailA",
+      "id": "processPatientemailA",
+      "value": {
+        "name": {
+          "defaultValue": "PatientemailA",
+          "isExpression": false,
+          "displayName": "Process name"
+        }
+      },
+      "metadata": {
+        "ActivityName": "PatientemailA_R",
+        "BindingsVersion": "2.2",
+        "DisplayLabel": "name",
+        "SolutionsSupport": "true"
+      }
+    },
+    {
+      "resource": "process",
+      "key": "DrEmailR",
+      "id": "processDrEmailR",
+      "value": {
+        "name": {
+          "defaultValue": "DrEmailR",
+          "isExpression": false,
+          "displayName": "Process name"
+        }
+      },
+      "metadata": {
+        "ActivityName": "DrEmailR",
+        "BindingsVersion": "2.2",
+        "DisplayLabel": "name",
+        "SolutionsSupport": "true"
+      }
+    },
+    {
+      "resource": "process",
+      "key": "PateintEmailR",
+      "id": "processPateintEmailR",
+      "value": {
+        "name": {
+          "defaultValue": "PateintEmailR",
+          "isExpression": false,
+          "displayName": "Process name"
+        }
+      },
+      "metadata": {
+        "ActivityName": "PateintEmailR",
+        "BindingsVersion": "2.2",
+        "DisplayLabel": "name",
+        "SolutionsSupport": "true"
+      }
+    },
+    {
+      "resource": "process",
+      "key": "CodedTriageAgent",
+      "id": "processCodedTriageAgent",
+      "value": {
+        "name": {
+          "defaultValue": "CodedTriageAgent",
+          "isExpression": false,
+          "displayName": "Process name"
+        }
+      },
+      "metadata": {
+        "ActivityName": "pateintTriageAgent1",
+        "BindingsVersion": "2.2",
+        "DisplayLabel": "name",
+        "SolutionsSupport": "true",
+        "subType": "Agent"
+      }
+    },
+    {
+      "resource": "app",
+      "key": "DrApprovalApp",
+      "id": "appDrApprovalApp",
+      "value": {
+        "name": {
+          "defaultValue": "DrApprovalApp",
+          "isExpression": false,
+          "displayName": "App name"
+        }
+      },
+      "metadata": {
+        "ActivityName": "EscalationApp",
+        "BindingsVersion": "2.2",
+        "DisplayLabel": "name",
+        "SolutionsSupport": "true"
+      }
+    }
+  ]
+}

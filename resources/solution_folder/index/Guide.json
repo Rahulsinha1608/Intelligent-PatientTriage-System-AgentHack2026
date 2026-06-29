@@ -1,0 +1,38 @@
+{
+  "docVersion": "1.0.0",
+  "resource": {
+    "name": "Guide",
+    "kind": "index",
+    "apiVersion": "ecs.uipath.com/v2",
+    "isOverridable": true,
+    "dependencies": [
+      {
+        "name": "Guide",
+        "kind": "Bucket"
+      }
+    ],
+    "runtimeDependencies": [],
+    "files": [],
+    "folders": [
+      {
+        "fullyQualifiedName": "solution_folder"
+      }
+    ],
+    "spec": {
+      "name": "Guide",
+      "description": "",
+      "storageBucketReference": {
+        "name": "Guide",
+        "key": "828e5f91-5f0f-4b13-9e1e-ad7d0cfb49cc",
+        "folderKey": "fbe7c413-cfa1-4a90-ac23-d253a0a760c7"
+      },
+      "fileNameGlob": "All",
+      "dataSourceType": "StorageBucket",
+      "includeSubfolders": true,
+      "ingestionType": "Advanced",
+      "encrypted": false
+    },
+    "locks": [],
+    "key": "3c0fe132-1d75-473d-9083-08ded350d89f"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "fileName": "evaluation-set-default.json",
+  "id": "4bbd84b7-e7df-46d4-962a-5ea874723126",
+  "name": "Default Evaluation Set",
+  "batchSize": 10,
+  "evaluatorRefs": [
+    "a01a07d3-d5e8-4335-a680-875feb2f26f3"
+  ],
+  "evaluations": [
+    {
+      "id": "84932fe2-de5e-48fb-ae4c-9ba6489a99d2",
+      "name": "Debug Run 6/29/2026, 1:16:34 PM",
+      "inputs": {
+        "severity": "high",
+        "nextAction": "diagnostics"
+      },
+      "expectedOutput": {
+        "doctorName": "Dr. Priya Mehta",
+        "doctorEmail": "snjeet28@gmail.com",
+        "speciality": "Cardiologist"
+      },
+      "expectedAgentBehavior": "",
+      "simulationInstructions": "",
+      "simulateInput": false,
+      "inputGenerationInstructions": "",
+      "simulateTools": false,
+      "evalSetId": "4bbd84b7-e7df-46d4-962a-5ea874723126",
+      "createdAt": "2026-06-29T07:46:34.795Z",
+      "updatedAt": "2026-06-29T07:46:34.795Z",
+      "source": "firstSuccessfulRun"
+    }
+  ],
+  "modelSettings": [],
+  "createdAt": "2026-06-29T07:32:30.518Z",
+  "updatedAt": "2026-06-29T07:46:34.795Z",
+  "agentMemoryEnabled": false,
+  "agentMemorySettings": [],
+  "lineByLineEvaluation": false
+}

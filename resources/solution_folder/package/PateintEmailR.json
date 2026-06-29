@@ -1,0 +1,26 @@
+{
+  "docVersion": "1.0.0",
+  "resource": {
+    "name": "PateintEmailR",
+    "kind": "package",
+    "apiVersion": "orchestrator.uipath.com/v1",
+    "projectKey": "16e8ff8a-6d6d-4306-8fd9-a7d1053eecae",
+    "isOverridable": true,
+    "dependencies": [],
+    "runtimeDependencies": [],
+    "files": [],
+    "folders": [
+      {
+        "fullyQualifiedName": "solution_folder"
+      }
+    ],
+    "spec": {
+      "fileName": null,
+      "fileReference": null,
+      "name": "PateintEmailR",
+      "description": null
+    },
+    "locks": [],
+    "key": "a61543fd-7af1-4b8a-8120-adc1b647ebe4"
+  }
+}

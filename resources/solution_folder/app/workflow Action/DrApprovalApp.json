@@ -1,0 +1,45 @@
+{
+  "docVersion": "1.0.0",
+  "resource": {
+    "name": "DrApprovalApp",
+    "kind": "app",
+    "type": "workflow Action",
+    "apiVersion": "apps.uipath.com/v1",
+    "projectKey": "4613da81-c906-464c-ad93-d379d1a6d39f",
+    "isOverridable": true,
+    "dependencies": [
+      {
+        "name": "DrApprovalApp",
+        "kind": "appVersion"
+      },
+      {
+        "name": "DrApprovalApp",
+        "kind": "process"
+      }
+    ],
+    "runtimeDependencies": [],
+    "files": [],
+    "folders": [
+      {
+        "fullyQualifiedName": "solution_folder"
+      }
+    ],
+    "spec": {
+      "name": "DrApprovalApp",
+      "description": null,
+      "type": "workflow Action",
+      "version": null,
+      "appSystemName": null,
+      "appVersionRef": {
+        "key": "75397ef7-ea3e-4bc5-b1b2-863574a128bf"
+      },
+      "codeBehindProcess": {
+        "key": "d73a3a65-f3ea-41c4-83f2-9a823a2987a7"
+      },
+      "actionSchema": null,
+      "manualActivationActions": null
+    },
+    "locks": [],
+    "key": "0c928bcb-ef85-4950-a1bd-623b342557a4"
+  }
+}

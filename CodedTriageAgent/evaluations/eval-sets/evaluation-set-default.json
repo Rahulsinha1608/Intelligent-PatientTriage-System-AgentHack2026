@@ -1,0 +1,11 @@
+{
+  "id": "86f369f4-173c-4dac-837b-94e36e91c7ce",
+  "name": "Default Evaluation Set",
+  "version": "1.0",
+  "evaluatorRefs": [
+    "6dd8cdf5-1cb2-46b6-bc56-48f42faa8efb"
+  ],
+  "evaluatorConfigs": [],
+  "evaluations": [],
+  "modelSettings": []
+}

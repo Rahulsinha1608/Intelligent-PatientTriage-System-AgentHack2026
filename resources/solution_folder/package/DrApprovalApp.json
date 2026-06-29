@@ -1,0 +1,26 @@
+{
+  "docVersion": "1.0.0",
+  "resource": {
+    "name": "DrApprovalApp",
+    "kind": "package",
+    "apiVersion": "orchestrator.uipath.com/v1",
+    "projectKey": "4613da81-c906-464c-ad93-d379d1a6d39f",
+    "isOverridable": true,
+    "dependencies": [],
+    "runtimeDependencies": [],
+    "files": [],
+    "folders": [
+      {
+        "fullyQualifiedName": "solution_folder"
+      }
+    ],
+    "spec": {
+      "fileName": null,
+      "fileReference": null,
+      "name": "DrApprovalApp",
+      "description": null
+    },
+    "locks": [],
+    "key": "358ad8ca-f4d6-40d5-bcdd-f037f7114ffb"
+  }
+}

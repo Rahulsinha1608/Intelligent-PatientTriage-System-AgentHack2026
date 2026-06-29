@@ -1,0 +1,58 @@
+{
+  "DocVersion": "1.0.0",
+  "StudioMinVersion": "2025.04.0",
+  "SolutionId": "9f622ff3-e0d6-479e-5be6-08ded445e489",
+  "Projects": [
+    {
+      "Type": "Agent",
+      "ProjectRelativePath": "Doctor Assigning/project.uiproj",
+      "Id": "1f069c77-964b-4fc3-a3c8-8b3ce8562898"
+    },
+    {
+      "Type": "WebApp",
+      "ProjectRelativePath": "DrApprovalApp/project.uiproj",
+      "Id": "4613da81-c906-464c-ad93-d379d1a6d39f"
+    },
+    {
+      "Type": "Process",
+      "ProjectRelativePath": "RPA Workflow/project.uiproj",
+      "Id": "3addb268-1d32-41d1-9713-9ed49bcb1dc0"
+    },
+    {
+      "Type": "Agent",
+      "ProjectRelativePath": "CodedTriageAgent/project.uiproj",
+      "Id": "dd9dacef-3c87-4b2e-918a-a0db534ad43a"
+    },
+    {
+      "Type": "Agent",
+      "ProjectRelativePath": "Triage/project.uiproj",
+      "Id": "b8251e51-95d8-48c7-b537-8776e836ad0a"
+    },
+    {
+      "Type": "Process",
+      "ProjectRelativePath": "PatientemailA/project.uiproj",
+      "Id": "7d0c741e-fc43-4b94-85c0-2d08a1365ce1"
+    },
+    {
+      "Type": "Process",
+      "ProjectRelativePath": "DrEmailR/project.uiproj",
+      "Id": "209a0af5-b5ae-483a-af7a-c4aff6b6b258"
+    },
+    {
+      "Type": "Process",
+      "ProjectRelativePath": "PateintEmailR/project.uiproj",
+      "Id": "16e8ff8a-6d6d-4306-8fd9-a7d1053eecae"
+    },
+    {
+      "Type": "ProcessOrchestration",
+      "ProjectRelativePath": "MainBackend/project.uiproj",
+      "Id": "ced95d52-3e08-4cc8-b00c-91c50aead726"
+    },
+    {
+      "Type": "Process",
+      "ProjectRelativePath": "DrEmailA/project.uiproj",
+      "Id": "088c60e0-59c9-45ba-9764-0b7d0beecc24"
+    }
+  ],
+  "AutomationHubIdeaUrl": null
+}

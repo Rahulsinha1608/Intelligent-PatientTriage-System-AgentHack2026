@@ -1,0 +1,38 @@
+{
+  "docVersion": "1.0.0",
+  "resource": {
+    "name": "Doctor-database",
+    "kind": "index",
+    "apiVersion": "ecs.uipath.com/v2",
+    "isOverridable": true,
+    "dependencies": [
+      {
+        "name": "DoctorDatabase",
+        "kind": "Bucket"
+      }
+    ],
+    "runtimeDependencies": [],
+    "files": [],
+    "folders": [
+      {
+        "fullyQualifiedName": "solution_folder"
+      }
+    ],
+    "spec": {
+      "name": "Doctor-database",
+      "description": "",
+      "storageBucketReference": {
+        "name": "DoctorDatabase",
+        "key": "972acf30-c15f-4ea4-94c1-4d95b7f6f663",
+        "folderKey": "fbe7c413-cfa1-4a90-ac23-d253a0a760c7"
+      },
+      "fileNameGlob": "All",
+      "dataSourceType": "StorageBucket",
+      "includeSubfolders": true,
+      "ingestionType": "Advanced",
+      "encrypted": false
+    },
+    "locks": [],
+    "key": "b83bf34c-a17a-4722-908a-08ded350d89f"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "docVersion": "1.0.0",
+  "resource": {
+    "name": "DrEmailR",
+    "kind": "package",
+    "apiVersion": "orchestrator.uipath.com/v1",
+    "projectKey": "209a0af5-b5ae-483a-af7a-c4aff6b6b258",
+    "isOverridable": true,
+    "dependencies": [],
+    "runtimeDependencies": [],
+    "files": [],
+    "folders": [
+      {
+        "fullyQualifiedName": "solution_folder"
+      }
+    ],
+    "spec": {
+      "fileName": null,
+      "fileReference": null,
+      "name": "DrEmailR",
+      "description": null
+    },
+    "locks": [],
+    "key": "bb11ff2f-014b-4969-a846-39e6202f315f"
+  }
+}

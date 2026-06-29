@@ -1,0 +1,25 @@
+{
+  "$resourceType": "context",
+  "id": "b3f13743-bda3-4d4a-b017-88134b333d51",
+  "referenceKey": "b83bf34c-a17a-4722-908a-08ded350d89f",
+  "name": "Doctor_database",
+  "description": "",
+  "contextType": "index",
+  "folderPath": "solution_folder",
+  "indexName": "Doctor-database",
+  "settings": {
+    "query": {
+      "description": "The query for the Semantic strategy.",
+      "variant": "dynamic"
+    },
+    "threshold": 0,
+    "resultCount": 3,
+    "retrievalMode": "semantic",
+    "folderPathPrefix": {
+      "variant": "static"
+    },
+    "fileExtension": {
+      "value": "All"
+    }
+  }
+}

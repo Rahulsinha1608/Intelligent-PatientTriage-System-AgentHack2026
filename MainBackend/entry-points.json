@@ -1,0 +1,56 @@
+{
+  "$schema": "https://cloud.uipath.com/draft/2024-12/entry-point",
+  "$id": "entry-points.json",
+  "entryPoints": [
+    {
+      "filePath": "/content/MAINBPMN.bpmn#Event_start",
+      "uniqueId": "9d56bbb7-d07d-4dcb-a07c-54a4154f39e0",
+      "type": "ProcessOrchestration",
+      "input": {
+        "type": "object",
+        "properties": {
+          "Name": {
+            "type": "string",
+            "title": "Name"
+          },
+          "Age": {
+            "type": "integer",
+            "title": "Age"
+          },
+          "Gender": {
+            "type": "string",
+            "title": "Gender"
+          },
+          "PateintEmail": {
+            "type": "string",
+            "title": "PateintEmail"
+          },
+          "Medication": {
+            "type": "string",
+            "title": "Medication"
+          },
+          "Symptoms": {
+            "type": "string",
+            "title": "Symptoms"
+          },
+          "Duration": {
+            "type": "string",
+            "title": "Duration"
+          }
+        },
+        "required": [
+          "Name",
+          "Age",
+          "Gender",
+          "PateintEmail",
+          "Medication"
+        ]
+      },
+      "output": {
+        "type": "object",
+        "properties": {}
+      },
+      "displayName": "Start event"
+    }
+  ]
+}

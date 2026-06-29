@@ -1,0 +1,20 @@
+{
+  "version": "2.0",
+  "resources": [
+    {
+      "resource": "index",
+      "key": "Doctor-database",
+      "value": {
+        "name": {
+          "defaultValue": "Doctor-database",
+          "isExpression": false,
+          "displayName": "Index Name"
+        }
+      },
+      "metadata": {
+        "bindingsVersion": "2.2",
+        "solutionsSupport": "true"
+      }
+    }
+  ]
+}

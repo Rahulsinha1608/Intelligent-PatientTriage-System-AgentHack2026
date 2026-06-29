@@ -1,0 +1,51 @@
+{
+  "$schema": "https://cloud.uipath.com/draft/2024-12/entry-point",
+  "$id": "entry-points.json",
+  "entryPoints": [
+    {
+      "filePath": "/content/agent.json",
+      "type": "agent",
+      "uniqueId": "784b316a-d284-4473-a8b2-50dab76a9fe1",
+      "input": {
+        "type": "object",
+        "required": [
+          "severity",
+          "nextAction"
+        ],
+        "properties": {
+          "severity": {
+            "type": "string",
+            "description": "Severity level of the issue: low, medium, high, or critical"
+          },
+          "nextAction": {
+            "type": "string",
+            "description": "The next action required: consultation, surgery, follow-up, emergency, diagnostics, or routine-checkup"
+          }
+        },
+        "title": "Inputs"
+      },
+      "output": {
+        "type": "object",
+        "required": [
+          "doctorName",
+          "doctorEmail",
+          "speciality"
+        ],
+        "properties": {
+          "doctorName": {
+            "type": "string",
+            "description": "Full name of the assigned doctor"
+          },
+          "doctorEmail": {
+            "type": "string",
+            "description": "Email address of the assigned doctor"
+          },
+          "speciality": {
+            "type": "string",
+            "description": "Medical speciality of the assigned doctor"
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "docVersion": "1.0.0",
+  "resource": {
+    "name": "PatientemailA",
+    "kind": "package",
+    "apiVersion": "orchestrator.uipath.com/v1",
+    "projectKey": "7d0c741e-fc43-4b94-85c0-2d08a1365ce1",
+    "isOverridable": true,
+    "dependencies": [],
+    "runtimeDependencies": [],
+    "files": [],
+    "folders": [
+      {
+        "fullyQualifiedName": "solution_folder"
+      }
+    ],
+    "spec": {
+      "fileName": null,
+      "fileReference": null,
+      "name": "PatientemailA",
+      "description": null
+    },
+    "locks": [],
+    "key": "29f023cb-7ae8-4fa3-b261-ca542bf5d0a5"
+  }
+}

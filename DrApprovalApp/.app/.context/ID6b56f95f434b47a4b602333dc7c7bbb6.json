@@ -1,0 +1,6 @@
+{
+  "escalationAppPrompt": "Create an Action Schema for a Patient Review Application. The schema should include two outcomes: Confirm and Reject. Add the following required input properties: PatientName (System.String) for the patient's full name, Age (System.Int32) for the patient's age, Gender (System.String) for the patient's gender, PatientEmail (System.String) for the patient's email address, Severity (System.String) for the severity level of the patient's condition, and AssignedDoctor (System.String) for the name of the assigned doctor. Additionally, create an Input/Output property named Status of type System.String, but configure it as a dropdown (single-select) instead of a text field. The dropdown should contain only two options: Accept and Reject, with no other values allowed. Ensure all input fields are marked as required and that the Status field can only be selected from the dropdown options, following the standard UiPath Action Schema format.",
+  "appUsageType": "1",
+  "isLocalWorkspace": "false",
+  "projectType": "Process"
+}

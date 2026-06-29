@@ -1,0 +1,26 @@
+{
+  "docVersion": "1.0.0",
+  "resource": {
+    "name": "Doctor Assigning",
+    "kind": "package",
+    "apiVersion": "orchestrator.uipath.com/v1",
+    "projectKey": "1f069c77-964b-4fc3-a3c8-8b3ce8562898",
+    "isOverridable": true,
+    "dependencies": [],
+    "runtimeDependencies": [],
+    "files": [],
+    "folders": [
+      {
+        "fullyQualifiedName": "solution_folder"
+      }
+    ],
+    "spec": {
+      "fileName": null,
+      "fileReference": null,
+      "name": "Doctor Assigning",
+      "description": null
+    },
+    "locks": [],
+    "key": "f5915ad8-987c-4ce8-a879-e7d7b66b91ee"
+  }
+}

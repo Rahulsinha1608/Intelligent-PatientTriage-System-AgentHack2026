@@ -1,0 +1,26 @@
+{
+  "docVersion": "1.0.0",
+  "resource": {
+    "name": "CodedTriageAgent",
+    "kind": "package",
+    "apiVersion": "orchestrator.uipath.com/v1",
+    "projectKey": "dd9dacef-3c87-4b2e-918a-a0db534ad43a",
+    "isOverridable": true,
+    "dependencies": [],
+    "runtimeDependencies": [],
+    "files": [],
+    "folders": [
+      {
+        "fullyQualifiedName": "solution_folder"
+      }
+    ],
+    "spec": {
+      "fileName": null,
+      "fileReference": null,
+      "name": "CodedTriageAgent",
+      "description": "Converted from low code project Triage"
+    },
+    "locks": [],
+    "key": "613d7742-b8a0-4293-bd54-e337acadcaee"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "version": "3.0.0.0",
+  "bundleHash": "VnmDLA8YQpt6s9RkWKUcgPqo59UlVKx6pKPcD95fWI",
+  "addedAssemblyNames": [],
+  "discardedAssemblyNames": [
+    "Apps.action.gqWxwMwHW3gg",
+    "Apps.action.ge0vpOgHW3gg",
+    "Apps.form.PatientReviewFormPage.gIJryRwHW3gg",
+    "Apps.form.PatientReviewFormPage.Expressions.72uAB39F2uE1iNIzwVl07L3",
+    "Apps.form.MainPage.gYilMQHW3gg",
+    "Apps.form.PatientReviewFormPage.Expressions.TizXW21MsRG1oWUwb2M3FZn",
+    "Apps.form.MainPage.Expressions.TlD5t38lvQK11Gmul20FGPh2",
+    "Apps.form.PatientReviewFormPage.gR4FTSQHW3gg",
+    "Apps.form.PatientReviewFormPage1.gYzjtmQHW3gg",
+    "Apps.form.PatientReviewFormPage1.Expressions.ARnRjbwf6N1MJ6rsdljF",
+    "Apps.form.PatientReviewFormPage1.gzkk2mwHW3gg",
+    "Apps.form.PatientReviewFormPage.gfswHUQHW3gg",
+    "Apps.form.PatientReviewFormPage1.Expressions.EeZ7rEOhBC16ld3AOUAhK",
+    "Apps.form.PatientReviewFormPage.Expressions.OsCmR3qQbAF1FopaUhSbWM3",
+    "Apps.form.PatientReviewFormPage1.Expressions.6koi4XmzqF1btAr34g6ZXT1",
+    "Apps.form.PatientReviewFormPage1.g1wN3oQHW3gg"
+  ],
+  "discardedAssemblyReplacements": {
+    "Apps.action.gqWxwMwHW3gg": "Apps.action.ge0vpOgHW3gg",
+    "Apps.action.ge0vpOgHW3gg": "Apps.action.gOBVXPAHW3gg",
+    "Apps.form.PatientReviewFormPage.gIJryRwHW3gg": "Apps.form.PatientReviewFormPage.gR4FTSQHW3gg",
+    "Apps.form.MainPage.gYilMQHW3gg": null,
+    "Apps.form.PatientReviewFormPage.gR4FTSQHW3gg": "Apps.form.PatientReviewFormPage.gfswHUQHW3gg",
+    "Apps.form.PatientReviewFormPage1.gYzjtmQHW3gg": "Apps.form.PatientReviewFormPage1.gzkk2mwHW3gg",
+    "Apps.form.PatientReviewFormPage1.gzkk2mwHW3gg": "Apps.form.PatientReviewFormPage1.g1wN3oQHW3gg",
+    "Apps.form.PatientReviewFormPage.gfswHUQHW3gg": null,
+    "Apps.form.PatientReviewFormPage1.g1wN3oQHW3gg": "Apps.form.PatientReviewFormPage1.gPLaISQLW3gg"
+  },
+  "assembliesJitInfo": {}
+}

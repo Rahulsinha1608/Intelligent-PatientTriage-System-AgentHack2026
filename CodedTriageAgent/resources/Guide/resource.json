@@ -1,0 +1,25 @@
+{
+  "$resourceType": "context",
+  "id": "588f7e2e-d10c-40fc-a58e-a4282ae26159",
+  "referenceKey": "3c0fe132-1d75-473d-9083-08ded350d89f",
+  "name": "Guide",
+  "description": "",
+  "contextType": "index",
+  "folderPath": "solution_folder",
+  "indexName": "Guide",
+  "settings": {
+    "query": {
+      "description": "The query for the Semantic strategy.",
+      "variant": "dynamic"
+    },
+    "threshold": 0,
+    "resultCount": 3,
+    "retrievalMode": "semantic",
+    "folderPathPrefix": {
+      "variant": "static"
+    },
+    "fileExtension": {
+      "value": "All"
+    }
+  }
+}

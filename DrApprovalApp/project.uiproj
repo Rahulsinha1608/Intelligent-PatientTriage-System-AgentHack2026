@@ -1,0 +1,10 @@
+{
+  "ProjectType": "WebApp",
+  "WebAppSettings": {
+    "AppId": "ID6b56f95f434b47a4b602333dc7c7bbb6",
+    "IsCoreProject": true
+  },
+  "Name": "DrApprovalApp",
+  "Description": null,
+  "MainFile": "Main.xaml"
+}
